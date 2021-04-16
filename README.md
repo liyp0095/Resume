@@ -4,7 +4,7 @@ My Resume
 ## How to use
 
 ```
-xelatex .tex
+xelatex *.tex
 ```
 
 ## Sample
