@@ -1,17 +1,19 @@
-\cvsection{Experience}
+\cvsection{Work Experience}
+
+% python recommendation system, springer online rs
 
 \begin{cventries}
   \cventry
-    {Algorithm Engineer} % Job title
-    {iReader} % Organization
+    {Algorithm Engineer \entrydatestyle{responsible for recommendation algorithm design and implementation}} % Job title
+    {iReader Inc.} % Organization
     {Beijing, China} % Location
     {July, 2017 -- July, 2018} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Helped design the recommendation system build on Hadoop Stream which serves twenty million active readers daily}
-        \item {Extracted latent features of consummers based on neural collaborative filter (solve collaborative filter with neural network)}
-        \item {Extracted book features with word2vec models. }
-        \item {Helped design the real-time recommendation system based on bayesan network}
+        \item {Designed the recommendation system build on \textbf{Hadoop Stream} which serves twenty million active readers daily}
+        \item {Extracted latent features of consummers, which provide support to the service of "Guess what you like", with neural collaborative filter (solve collaborative filter with neural network). (\textbf{Python}).}
+        \item {Extracted book features for all the books in store, which used in the service of "similar book recommendation", with word2vec model and updated features automatically every month. (\textbf{Python, crontab})}
+        \item {Designed and implemented the real-time recommendation system by combining users' long term interests (update daily) and short term interests (update every minute). (\textbf{Python, Java, Spring})}
       \end{cvitems}
     }
 \end{cventries}
